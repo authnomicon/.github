@@ -15,7 +15,7 @@ These components are implemented for [Bixby.js](https://github.com/bixbyjs), a
 dependency injection framework for [Node.js](https://nodejs.org/) applications.
 This allows the project to provide protocol endpoints independent of
 application-specific business logic.  Business logic is injected into and driven
-by protocol implementations in a [hexagonal architecture](https://en.wikipedia.org/wiki/Hexagonal_architecture_(software)).
+by protocol implementations in accordance with [hexagonal architecture](https://en.wikipedia.org/wiki/Hexagonal_architecture_(software)).
 
 The result is a fully-functional IAM system, where business logic components can
 be swapped out and replaced according to application-specific needs, while still
