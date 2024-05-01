@@ -23,4 +23,20 @@ leveraging the protocol implementations.
 
 ### Overview
 
-TODO...
+#### Core
+
+- [@authnomicon/session](https://github.com/authnomicon/session) - Components
+  for maintaining authentication context during a web-based login session.
+
+#### Authentication
+
+- [@authnomicon/login](https://github.com/authnomicon/login) - Components for
+  prompting a user to log in, as well as authenticating using a password
+  credential.
+  
+- [@authnomicon/federated](https://github.com/authnomicon/federated) -
+  Components for federated identity operations (single sign-on (SSO), single
+  logout (SLO), delegated authorization) with external identity providers
+  (IDPs).
+
+- [@authnomicon/oob](https://github.com/authnomicon/login)
