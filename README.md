@@ -37,6 +37,18 @@ leveraging the protocol implementations.
 - [@authnomicon/federated](https://github.com/authnomicon/federated) -
   Components for federated identity operations (single sign-on (SSO), single
   logout (SLO), delegated authorization) with external identity providers
-  (IDPs).
+  (IDP).
 
-- [@authnomicon/oob](https://github.com/authnomicon/login)
+- [@authnomicon/oob](https://github.com/authnomicon/oob) - Components for
+  out-of-band authentication, including email magic link and SMS one-time
+  password (OTP).
+
+#### Federation
+
+- [@authnomicon/oauth2](https://github.com/authnomicon/oauth2) - Components for
+  building an OAuth 2.0 authorization server (AS) and providing authorization to
+  third-party applications.
+  
+- [@authnomicon/openidconnect](https://github.com/authnomicon/openidconnect) -
+  Components for building an OpenID Connect provider (OP) and providing
+  authentication to relying party (RP) applications.
