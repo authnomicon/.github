@@ -29,8 +29,8 @@ leveraging the protocol implementations.
   for maintaining authentication context during a web-based login session.
 
 - [@authnomicon/prompts](https://github.com/authnomicon/prompts) - Components to
-  present prompts to the user in a challenge-response sequence needed to
-  obtain authentication and authorization.
+  present prompts to the user in a web browser, as part of a challenge-response
+  flow needed to obtain authentication and authorization.
 
 #### Authentication
 
