@@ -56,3 +56,9 @@ leveraging the protocol implementations.
 - [@authnomicon/openidconnect](https://github.com/authnomicon/openidconnect) -
   Components for building an OpenID Connect provider (OP) and providing
   authentication to relying party (RP) applications.
+
+#### Data Access
+
+- [@authnomicon/postgresql](https://github.com/authnomicon/postgresql) -
+  Components that provide data access and persistence for user profile
+  information and credentials using PostgreSQL.
