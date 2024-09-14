@@ -23,7 +23,7 @@ leveraging the protocol implementations.
 
 ### Overview
 
-#### Core
+#### Session Management
 
 - [@authnomicon/session](https://github.com/authnomicon/session) - Components
   for maintaining authentication context during a web-based login session.
@@ -57,7 +57,7 @@ leveraging the protocol implementations.
   Components for building an OpenID Connect provider (OP) and providing
   authentication to relying party (RP) applications.
 
-#### Data Access
+#### Directory Services
 
 - [@authnomicon/postgresql](https://github.com/authnomicon/postgresql) -
   Components that provide data access and persistence for user profile
