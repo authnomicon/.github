@@ -21,18 +21,13 @@ The result is a fully-functional IAM system, where business logic components can
 be swapped out and replaced according to application-specific needs, while still
 leveraging the protocol implementations.
 
-### Overview
+### Overviews
 
-#### Session Management
-
-- [@authnomicon/session](https://github.com/authnomicon/session) - Components
-  for maintaining authentication context during a web-based login session.
+#### Authentication
 
 - [@authnomicon/prompts](https://github.com/authnomicon/prompts) - Components to
   present prompts to the user in a web browser, as part of a challenge-response
   flow needed to obtain authentication and authorization.
-
-#### Authentication
 
 - [@authnomicon/login](https://github.com/authnomicon/login) - Components for
   prompting a user to log in, as well as authenticating using a password
@@ -41,11 +36,16 @@ leveraging the protocol implementations.
 - [@authnomicon/federated](https://github.com/authnomicon/federated) -
   Components for federated identity operations (single sign-on (SSO), single
   logout (SLO), delegated authorization) with external identity providers
-  (IDP).
+  (IDPs).
 
 - [@authnomicon/oob](https://github.com/authnomicon/oob) - Components for
   out-of-band authentication, including email magic link and SMS one-time
   password (OTP).
+
+#### Session Management
+
+- [@authnomicon/session](https://github.com/authnomicon/session) - Components
+  for maintaining authentication context during a web-based login session.
 
 #### Federation
 
